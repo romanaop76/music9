@@ -76,18 +76,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/465d30e7788e3238bb211.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d233149f1ac1971112c9e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/56f9ab02768680d9b30d8.jpg",
+    "https://te.legra.ph/file/bf3f2afdf07309a6ac476.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/bf3f2afdf07309a6ac476.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
@@ -122,9 +122,9 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/56f9ab02768680d9b30d8.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/bf3f2afdf07309a6ac476.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/465d30e7788e3238bb211.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/d233149f1ac1971112c9e.jpg"
